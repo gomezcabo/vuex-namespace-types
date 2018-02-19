@@ -1,0 +1,26 @@
+{
+  "name": "vuex-namespace-types",
+  "version": "1.0.0",
+  "description": "This helper function automate the creation of namespaced names for getters, mutations and actions using the module:type/name format and return a structure ready to be used across the whole application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gomezcabo/vuex-namespace-types.git"
+  },
+  "keywords": [
+    "vuex",
+    "namespace",
+    "types",
+    "state",
+    "management"
+  ],
+  "author": "Juan Antonio Gómez Cabo <gomezcabo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gomezcabo/vuex-namespace-types/issues"
+  },
+  "homepage": "https://github.com/gomezcabo/vuex-namespace-types#readme"
+}
