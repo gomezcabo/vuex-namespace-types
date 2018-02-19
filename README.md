@@ -49,6 +49,28 @@ var types = {
 };
 ```
 
+Defining getters, mutations and actions (ES6 syntax)
+
+```
+import { moduleA } from './types'
+
+export default {
+  [moduleA.actions.OTHER_NAME]: ({ commit }, payload) => {
+    commit(moduleA.mutations.OTHER_NAME, payload)
+  }
+}
+```
+
+```
+import { moduleB } from './types'
+
+export default {
+  [moduleB.getters.GETTER_NAME_1]: state => {
+      return state.name1
+  }
+}
+```
+
 It can be used in a Vue instance like this:
 
 ```javascript
