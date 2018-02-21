@@ -79,12 +79,12 @@ import { moduleA, moduleB } from './types';
 Vue.new({
   computed: {
     ...mapGetters({
-      'getterName1': types.moduleB.getters.GETTER_NAME_1
+      'getterName1': moduleB.getters.GETTER_NAME_1
     });
   }
   methods: {
     ...mapActions({
-      'otherName': types.moduleA.actions.OTHER_NAME
+      'otherName': moduleA.actions.OTHER_NAME
     })
   }
 }
